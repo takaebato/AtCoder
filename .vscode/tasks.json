@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "cppbuild",
+            "command": "/usr/local/bin/g++-11",
+            "args": [
+                 "-g",
+                 "-o",
+                "'${file}'",
+                "'/Users/ebato.takahiro/Documents/OSS/AtCoder/problem.out'",
+                "'${file}'",
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

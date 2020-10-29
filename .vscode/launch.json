@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "AtCoder",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/Users/ebato.takahiro/Documents/OSS/AtCoder/problem.out",
+            "args": ["<", "/Users/ebato.takahiro/Documents/OSS/AtCoder/problem.in"],
+            "stopAtEntry": false,
+            "cwd": "/Users/ebato.takahiro/Documents/OSS/AtCoder",
+            "environment": [],
+            "externalConsole": true,
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+        }
+    ]
+}

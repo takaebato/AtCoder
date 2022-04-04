@@ -5,10 +5,10 @@
             "name": "AtCoder",
             "type": "cppdbg",
             "request": "launch",
-            "program": "/Users/ebato.takahiro/Documents/OSS/AtCoder/problem.out",
-            "args": ["<", "/Users/ebato.takahiro/Documents/OSS/AtCoder/problem.in"],
+            "program": "/Users/taka/Documents/GitHub/AtCoder/problem.out",
+            "args": ["<", "/Users/taka/Documents/GitHub/AtCoder/problem.in"],
             "stopAtEntry": false,
-            "cwd": "/Users/ebato.takahiro/Documents/OSS/AtCoder",
+            "cwd": "/Users/taka/Documents/GitHub/AtCoder",
             "environment": [],
             "externalConsole": true,
             "setupCommands": [

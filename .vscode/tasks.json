@@ -6,16 +6,17 @@
             "type": "cppbuild",
             "command": "/usr/local/bin/g++-11",
             "args": [
-                 "-g",
-                 "-o",
+                "-g",
+                "-o",
                 "'${file}'",
-                "'/Users/ebato.takahiro/Documents/OSS/AtCoder/problem.out'",
-                "'${file}'",
+                "'/Users/taka/Documents/GitHub/AtCoder/problem.out'",
+                "'${file}'"
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "detail": "コンパイラ: g++-11"
         }
     ]
 }

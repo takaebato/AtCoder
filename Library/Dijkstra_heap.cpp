@@ -38,7 +38,6 @@ int main() {
         G[s].pb(Edge(t, w));
     }
 
-    vec<bool> used(V + 1, false);
     vec<ll> dist(V + 1, INF);
     dist[r] = 0;
     priority_queue<P<ll, int>, vec<P<ll, int>>, greater<P<ll, int>>> que;

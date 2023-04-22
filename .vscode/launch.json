@@ -5,10 +5,10 @@
             "name": "AtCoder",
             "type": "cppdbg",
             "request": "launch",
-            "program": "/Users/taka/Documents/GitHub/AtCoder/problem.out",
-            "args": ["<", "/Users/taka/Documents/GitHub/AtCoder/problem.in"],
+            "program": "${workspaceFolder}/out",
+            "args": ["<", "${workspaceFolder}/in"],
             "stopAtEntry": false,
-            "cwd": "/Users/taka/Documents/GitHub/AtCoder",
+            "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": true,
             "setupCommands": [

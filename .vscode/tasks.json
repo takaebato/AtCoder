@@ -10,7 +10,8 @@
                 "-o",
                 "'${file}'",
                 "'/Users/taka/Documents/GitHub/AtCoder/problem.out'",
-                "'${file}'"
+                "'${file}'",
+                "-I ../ac-library/"
             ],
             "group": {
                 "kind": "build",
